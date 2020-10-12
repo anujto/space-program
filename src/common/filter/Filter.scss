@@ -1,0 +1,124 @@
+@import '../../styles//variables';
+
+.filter {
+    // background-color: #f1f1f1;
+    border: 1px solid $light-grey;
+    border-radius: 5px;
+    max-width: 19%;
+    padding: 7px;
+    background-color: white;
+    flex: 0 0 25%;
+    
+
+    .filter-heading {
+        text-align: left;
+        height: 3px;
+        font-weight: 800;
+    }
+
+    .filter-heading +h5 {
+        text-align: center;
+        padding: 7px;
+        border-bottom: 2px solid $light-grey;
+
+    }
+
+    .filter-heading + div {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .years-button {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+
+        .btn-year {
+            background-color: $light-green;
+            border-radius: 4px;
+            color: black;
+            flex: 0 0 24%;
+            padding: 2px;
+            margin: 2% 11%;
+            border: none;
+            outline:none;
+            cursor: hand;
+
+            &.active {
+                background-color:$dark-green;
+                border: none;
+                border-radius: 4px;
+                outline:none;
+
+            }
+        }
+    }
+
+    .successful-launch {
+        h5 {
+            text-align: center;
+            padding: 7px;
+            border-bottom: 2px solid $light-grey;
+            font-weight: 500;
+        }
+            // display: flex;
+            // flex-wrap: wrap;
+            // padding-left: 0;
+    
+        .btn-launch {
+            background-color: $light-green;
+            border-radius: 4px;
+            color: black;
+            flex: 0 0 24%;
+            padding: 3px 11px;
+            margin: 2% 11%;
+            border: none;
+            outline: none;
+            cursor: hand;
+
+    
+                &.active {
+                    background-color:$dark-green;
+                    border: none;
+                    border-radius: 7px;
+                    outline: none;
+    
+                }
+        }
+    }
+
+    .successful-landing {
+        h5 {
+            text-align: center;
+            padding: 7px;
+            border-bottom: 2px solid $light-grey;
+            font-weight: 500;
+
+        }
+            // display: flex;
+            // flex-wrap: wrap;
+            // padding-left: 0;
+    
+        .btn-landing {
+            background-color: $light-green;
+            border-radius: 4px;
+            color: black;
+            flex: 0 0 24%;
+            padding: 3px 11px;
+            margin: 2% 11%;
+            border: none;
+            outline: none;
+            cursor: hand;
+
+    
+                &.active {
+                    background-color:$dark-green;
+                    border: none;
+                    border-radius: 7px;
+                    outline: none;
+    
+                }
+        }
+    }
+  
+}

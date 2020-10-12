@@ -1,0 +1,77 @@
+.filter {
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  max-width: 19%;
+  padding: 7px;
+  background-color: white;
+  flex: 0 0 25%; }
+  .filter .filter-heading {
+    text-align: left;
+    height: 3px;
+    font-weight: 800; }
+  .filter .filter-heading + h5 {
+    text-align: center;
+    padding: 7px;
+    border-bottom: 2px solid #eaeaea; }
+  .filter .filter-heading + div {
+    text-align: center;
+    font-size: 14px; }
+  .filter .years-button {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0; }
+    .filter .years-button .btn-year {
+      background-color: #5df17e8c;
+      border-radius: 4px;
+      color: black;
+      flex: 0 0 24%;
+      padding: 2px;
+      margin: 2% 11%;
+      border: none;
+      outline: none;
+      cursor: hand; }
+      .filter .years-button .btn-year.active {
+        background-color: #16ab37fc;
+        border: none;
+        border-radius: 4px;
+        outline: none; }
+  .filter .successful-launch h5 {
+    text-align: center;
+    padding: 7px;
+    border-bottom: 2px solid #eaeaea;
+    font-weight: 500; }
+  .filter .successful-launch .btn-launch {
+    background-color: #5df17e8c;
+    border-radius: 4px;
+    color: black;
+    flex: 0 0 24%;
+    padding: 3px 11px;
+    margin: 2% 11%;
+    border: none;
+    outline: none;
+    cursor: hand; }
+    .filter .successful-launch .btn-launch.active {
+      background-color: #16ab37fc;
+      border: none;
+      border-radius: 7px;
+      outline: none; }
+  .filter .successful-landing h5 {
+    text-align: center;
+    padding: 7px;
+    border-bottom: 2px solid #eaeaea;
+    font-weight: 500; }
+  .filter .successful-landing .btn-landing {
+    background-color: #5df17e8c;
+    border-radius: 4px;
+    color: black;
+    flex: 0 0 24%;
+    padding: 3px 11px;
+    margin: 2% 11%;
+    border: none;
+    outline: none;
+    cursor: hand; }
+    .filter .successful-landing .btn-landing.active {
+      background-color: #16ab37fc;
+      border: none;
+      border-radius: 7px;
+      outline: none; }
